@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="../static/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../static/img/favicon.png">
+  <title>
+    UnFakeIt
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- Nucleo Icons -->
+  <link href="../static/css/nucleo-icons.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="../static/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../static/demo/demo.css" rel="stylesheet" />
+  <style>
+    .card-footer{
+      color: aliceblue;
+    }
+  </style>
+</head>
+
+<body class="">
+  <div class="wrapper">
+    <div class="sidebar">
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red"
+    -->
+      <div class="sidebar-wrapper">
+        <div class="logo">
+          <a href="#" class="simple-text logo-mini">
+            <div class="logo-img">
+              <img src="../static/img/1.png" />
+            </div>
+          </a>
+          <a href="#" class="simple-text logo-normal">
+            UnFakeIt
+          </a>
+        </div>
+        <ul class="nav">
+          <li >
+            <a href="./dashboard.html">
+              <i class="tim-icons icon-chart-pie-36"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li>
+            <a href="./news.html">
+              <i class="tim-icons icon-paper"></i>
+              <p>News</p>
+            </a>
+          </li>
+          <li>
+            <a href="./user.html">
+              <i class="tim-icons icon-pin
+              "></i>
+              <p>Source Tracking</p>
+            </a>
+          </li>
+          
+          <li class="active">
+            <a href="./whatsapp.html">
+              
+              <!-- <i class="tim-icons icon-bell-55"></i> -->
+              <!-- <a href="https://icons8.com/icon/16466/whatsapp"></a> -->
+              <p>&nbsp;
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+              width="25" height="25"
+              viewBox="0 0 172 172"
+              style=" fill:#000000;"
+              opacity=0.8><g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path><g fill="#ffffff" fill-rule="evenodd"><path d="M131.70849,40.33349c-12.13574,-12.13574 -28.26074,-18.83349 -45.43555,-18.83349c-35.39941,0 -64.22705,28.80664 -64.22705,64.20606c-0.021,11.31689 2.93945,22.36084 8.56641,32.10303l-9.11231,33.27881l34.05567,-8.94433c9.36426,5.12305 19.94629,7.81055 30.69629,7.83154h0.02099c35.39942,0 64.20606,-28.80664 64.22705,-64.22705c0,-17.15381 -6.67676,-33.27881 -18.79151,-45.41455zM86.27295,139.12012h-0.02099c-9.57422,0 -18.98047,-2.58252 -27.16894,-7.43262l-1.95264,-1.15479l-20.21923,5.29102l5.39599,-19.69433l-1.25977,-2.01562c-5.35401,-8.50342 -8.16748,-18.32959 -8.16748,-28.40771c0,-29.41553 23.95654,-53.35108 53.41406,-53.35108c14.25634,0 27.65185,5.56397 37.72998,15.64209c10.07813,10.09912 15.62109,23.49462 15.62109,37.75097c0,29.43653 -23.95654,53.37207 -53.37207,53.37207zM115.54151,99.14356c-1.5957,-0.79785 -9.49023,-4.68213 -10.95996,-5.20703c-1.46972,-0.5459 -2.54053,-0.79785 -3.61133,0.79785c-1.0708,1.6167 -4.13623,5.22803 -5.08105,6.29883c-0.92383,1.04981 -1.86865,1.19678 -3.46435,0.39893c-1.6167,-0.79785 -6.78174,-2.49854 -12.9126,-7.97852c-4.76611,-4.24121 -7.99951,-9.51123 -8.92334,-11.10693c-0.94483,-1.6167 -0.10498,-2.47754 0.69287,-3.27539c0.73486,-0.71387 1.6167,-1.86866 2.41455,-2.81348c0.79785,-0.92383 1.0708,-1.5957 1.6167,-2.66651c0.5249,-1.0708 0.25195,-2.01562 -0.14697,-2.81347c-0.39893,-0.79785 -3.61133,-8.71338 -4.95508,-11.92578c-1.30176,-3.12842 -2.62451,-2.6875 -3.61133,-2.75049c-0.92383,-0.04199 -1.99463,-0.04199 -3.06543,-0.04199c-1.0708,0 -2.81348,0.39892 -4.2832,2.01563c-1.46973,1.5957 -5.60596,5.47998 -5.60596,13.37451c0,7.89453 5.75293,15.53711 6.55078,16.60791c0.79785,1.0498 11.3169,17.25879 27.4209,24.20849c3.82129,1.65869 6.80273,2.64551 9.1333,3.38037c3.84229,1.21778 7.34864,1.04981 10.12012,0.65088c3.08642,-0.46192 9.49023,-3.88428 10.83398,-7.64258c1.32275,-3.73731 1.32275,-6.94971 0.92383,-7.62158c-0.39893,-0.67187 -1.46973,-1.0708 -3.08643,-1.88965z"></path></g></g></svg>
+               &nbsp;&nbsp;&nbsp; Whatsapp</p>
+            </a>
+          </li>
+          <li>
+            <a href="./index.html">
+              <i class="tim-icons icon-single-02"></i>
+              <p>Fake News Detector</p>
+            </a>
+          </li>
+          <li>
+            <a href="./signin.html">
+              <i class="tim-icons icon-badge"></i>
+              <p>Sign In</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle d-inline">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <a class="navbar-brand" href="javascript:void(0)">WHATSAPP</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav ml-auto">
+              <li class="search-bar input-group">
+               
+              </li>
+              
+              
+              <li class="separator d-lg-none"></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="modal modal-search fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <i class="tim-icons icon-simple-remove"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="title">Fake News Detector</h5>
+              </div>
+              <div class="card-body">
+                <form  method="post" enctype="multipart/form-data" action='{{ url_for("whatsappp")}}'>
+                  <div class="row justify-content-around mb-2">
+                    <div class="column" >
+                      <div class="col-md-5 pr-md-1">
+                        <div>
+                            <input onchange="previewFile()" type="file" name="file1">
+                        </div>
+                      </div>
+                      <div>
+                        <div style="margin-top:20px" class="form-group">
+                          <img src="" id="89"> 
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-5 pr-md-1">
+                      <div class="form-group">
+                        <label>Paste Your News Here</label>
+                        <textarea type="text" name="text" class="form-control" rows="4" ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <button type="submit" class="btn btn-fill btn-primary">Predict</button>
+                  </div>
+                </form>
+              </div>
+                
+              
+              
+              <div class="card-footer">
+                {{prediction_text}}
+              </div>
+            </div>
+          </div>
+        </div>
+              {% if news is defined %}  
+              {% for i in range(news.Link|length) %}
+              <!-- <div class="content"> -->
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="title">{{ i+1 }}]  {{news["Title"][i]}}</h5>
+                    </div>
+                    <div class="card-body">
+                      <form>
+                        <div class="row">
+                          <div class="col-md-8">
+                            <div class="form-group">
+                              <label>{{ news["Heading1"][i] }} </label><br>
+                              <a href="{{news['Link'][i]}}"> Learn more </a>
+                              <textarea  class="form-control" rows="4" >
+                                {{ news["Paragraph"][i] }}
+                              </textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+                </div>
+                
+              <!-- </div>    -->
+              {% endfor %}
+              {% endif %}
+<!--             
+            </div>
+          </div> -->
+          
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container-fluid">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="javascript:void(0)" class="nav-link">
+                UnFakeIt
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="javascript:void(0)" class="nav-link">
+                About Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="javascript:void(0)" class="nav-link">
+                Blog
+              </a>
+            </li>
+          </ul>
+          <div class="copyright">
+            ©
+            <script>
+              document.write(new Date().getFullYear())
+            </script>&nbsp;made with <i class="tim-icons icon-heart-2"></i> by
+            Poseidon for a better web.
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  
+  <!--   Core JS Files   -->
+  <script src="../static/js/core/jquery.min.js"></script>
+  <script src="../static/js/core/popper.min.js"></script>
+  <script src="../static/js/core/bootstrap.min.js"></script>
+  <script src="../static/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="../static/js/plugins/chartjs.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="../static/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="../static/js/black-dashboard.min.js?v=1.0.0"></script><!-- Black Dashboard DEMO methods, don't include it in your project! -->
+  <script src="../static/demo/demo.js"></script>
+  <script>
+    function previewFile(){
+    var preview = document.getElementById('89'); //selects the query named img
+    var file    = document.querySelector('input[type=file]').files[0]; //sames as here
+    var reader  = new FileReader();
+ 
+    reader.onloadend = function () {
+        preview.src = reader.result;
+    }
+ 
+    if (file) {
+        reader.readAsDataURL(file); //reads the data as a URL
+    } else {
+        preview.src = "";
+    }
+   }
+ 
+    previewFile();  //calls the function named previewFile()
+   </script>
+  <script>
+    $(document).ready(function() {
+      $().ready(function() {
+        $sidebar = $('.sidebar');
+        $navbar = $('.navbar');
+        $main_panel = $('.main-panel');
+
+        $full_page = $('.full-page');
+
+        $sidebar_responsive = $('body > .navbar-collapse');
+        sidebar_mini_active = true;
+        white_color = false;
+
+        window_width = $(window).width();
+
+        fixed_plugin_open = $('.sidebar .sidebar-wrapper .nav li.active a p').html();
+
+
+
+        $('.fixed-plugin a').click(function(event) {
+          if ($(this).hasClass('switch-trigger')) {
+            if (event.stopPropagation) {
+              event.stopPropagation();
+            } else if (window.event) {
+              window.event.cancelBubble = true;
+            }
+          }
+        });
+
+        $('.fixed-plugin .background-color span').click(function() {
+          $(this).siblings().removeClass('active');
+          $(this).addClass('active');
+
+          var new_color = $(this).data('color');
+
+          if ($sidebar.length != 0) {
+            $sidebar.attr('data', new_color);
+          }
+
+          if ($main_panel.length != 0) {
+            $main_panel.attr('data', new_color);
+          }
+
+          if ($full_page.length != 0) {
+            $full_page.attr('filter-color', new_color);
+          }
+
+          if ($sidebar_responsive.length != 0) {
+            $sidebar_responsive.attr('data', new_color);
+          }
+        });
+
+        $('.switch-sidebar-mini input').on("switchChange.bootstrapSwitch", function() {
+          var $btn = $(this);
+
+          if (sidebar_mini_active == true) {
+            $('body').removeClass('sidebar-mini');
+            sidebar_mini_active = false;
+            blackDashboard.showSidebarMessage('Sidebar mini deactivated...');
+          } else {
+            $('body').addClass('sidebar-mini');
+            sidebar_mini_active = true;
+            blackDashboard.showSidebarMessage('Sidebar mini activated...');
+          }
+
+          // we simulate the window Resize so the charts will get updated in realtime.
+          var simulateWindowResize = setInterval(function() {
+            window.dispatchEvent(new Event('resize'));
+          }, 180);
+
+          // we stop the simulation of Window Resize after the animations are completed
+          setTimeout(function() {
+            clearInterval(simulateWindowResize);
+          }, 1000);
+        });
+
+        $('.switch-change-color input').on("switchChange.bootstrapSwitch", function() {
+          var $btn = $(this);
+
+          if (white_color == true) {
+
+            $('body').addClass('change-background');
+            setTimeout(function() {
+              $('body').removeClass('change-background');
+              $('body').removeClass('white-content');
+            }, 900);
+            white_color = false;
+          } else {
+
+            $('body').addClass('change-background');
+            setTimeout(function() {
+              $('body').removeClass('change-background');
+              $('body').addClass('white-content');
+            }, 900);
+
+            white_color = true;
+          }
+
+
+        });
+
+        $('.light-badge').click(function() {
+          $('body').addClass('white-content');
+        });
+
+        $('.dark-badge').click(function() {
+          $('body').removeClass('white-content');
+        });
+      });
+    });
+  </script>
+  
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #1E1E2C;
+}
+.container{
+    margin: auto;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.container .vertical-navbar{
+    background-color: #CA52E4;
+    width: 300px;
+    height: 600px;
+    /* display: block; */
+    border-radius: 10px;
+    bottom: 0;
+    position: absolute;
+    margin-left: 20px;
+}
+.pred-container{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* margin: auto; */
+    margin-top: 125px;
+    margin-left: 400px;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #27293D;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+}
+.pred-container .label-news{
+    color: #ffffff;
+    margin: 10px;
+}
+.pred-container .enter-article{
+    position: relative;
+    width: 450px;
+    height: 100px;
+    padding: 10px 10px 0 0;
+    resize: none;
+    border: none;
+    margin: 10px;
+    border-bottom: 1px solid #2b3553;
+    border-radius: 0;
+    line-height: 2;
+    background-color: #2b3553;
+    color: #ffffff;
+}
+.pred-container .submit-article{
+    background-image: linear-gradient(to bottom left, #e14eca, #ba54f5, #e14eca);
+    background-size: 210% 210%;
+    background-position: top right;
+    box-shadow: none;
+    color: #ffffff;
+    border: none;
+    position: relative;
+    margin: 4px 1px 0px 10px;
+    border-radius: 0.4285rem;
+    display: flex;
+    font-weight: 600;
+    padding: 11px 40px;
+    cursor: pointer;
+}
+.pred-container .pred-text{
+    margin: 10px;
+    color: #ffffff;
+}
+.container .suggestion .news1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+    background-color: #27293D;
+    margin-top: 500px;
+    margin-left: 400px;
+    width: 500px;
+    height: 250px;
+    /* margin: auto; */
+}
