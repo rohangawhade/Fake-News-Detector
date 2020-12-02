@@ -35,13 +35,13 @@ mydb = pymysql.connect(
 mycursor = mydb.cursor()
 app = Flask(__name__)
 model = load_model(
-    'D:\\Github Repositories\\Fake-News-Classifier\\flask\\model.h5')
+    'D:\\Github Repositories\\Fake-News-Detector\\flask\\model.h5')
 data = pickle.load(
-    open('D:\\Github Repositories\\Fake-News-Classifier\\flask\\text.pkl',
+    open('D:\\Github Repositories\\Fake-News-Detector\\flask\\text.pkl',
          'rb'))
 
 file_img = None
-UPLOAD_FOLDER = 'D:\\Github Repositories\\Fake-News-Classifier\\upload'
+UPLOAD_FOLDER = 'D:\\Github Repositories\\Fake-News-Detector\\upload'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 
@@ -193,9 +193,7 @@ def imageUrl(filepath):
     multipart = {'encoded_image': (filepath, open(filepath, 'rb')), 'image_content': ''}
     response = requests.post(searchUrl, files=multipart, allow_redirects=False)
     fetchUrl = response.headers['Location']
-    driver = webdriver.Chrome(
-        '''D:\\Github Repositories\\Fake-News-Classifier\\
-            chromedriver_win32\\chromedriver.exe''')
+    driver = webdriver.Chrome('D:\\Github Repositories\\Fake-News-Detector\\chromedriver_win32\\chromedriver.exe')
     driver.get(fetchUrl)
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     lin = []
